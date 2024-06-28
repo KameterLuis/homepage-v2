@@ -1,24 +1,33 @@
-import React from "react";
-import HeroLeft from "./images/HeroLeft";
-import HeroRight from "./images/HeroRight";
-
 const Hero = () => {
   return (
-    <div className="px-10 flex w-full min-h-screen justify-center md:items-center">
-      <div className="hidden md:flex md:visible w-full h-[400px]">
-        <div className="relative w-full">
-          <HeroLeft />
-        </div>
-        <div className="relative w-full">
-          <HeroRight />
+    <div className="min-h-screen">
+      <div className="fixed left-0 top-0 w-full h-full z-0">
+        <div className="w-full min-h-screen h-full blur-lg scale-110 opacity-50">
+          <img
+            src="/friseur.jpg"
+            alt="Friseur Eva Kameter"
+            style={{ objectFit: "cover", width: "100%", height: "100%" }}
+          ></img>
         </div>
       </div>
-      <div className="md:hidden w-[300px] h-[300px] mt-48">
-        <div className="relative w-full h-full">
-          <HeroRight />
-        </div>
-        <div className="relative w-full h-full">
-          <HeroLeft />
+      <div className="fixed w-screen h-screen flex justify-center items-center z-10">
+        <div className="flex overflow-x-hidden w-[1000px] h-[497px]">
+          <div className="flex">
+            <div className="w-[1000px]">
+              <img
+                src="/friseur.jpg"
+                alt="Friseur Eva Kameter"
+                style={{ objectFit: "contain", width: "100%", height: "100%" }}
+              ></img>
+            </div>
+            <div className="w-[1000px]">
+              <img
+                src="/friseur.jpg"
+                alt="Friseur Eva Kameter"
+                style={{ objectFit: "contain", width: "100%", height: "100%" }}
+              ></img>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -1,7 +1,6 @@
-import React from "react";
-import Leam from "./images/Leam";
-import Friseur from "./images/Friseur";
 import Bluepaca from "./images/Bluepaca";
+import Friseur from "./images/Friseur";
+import Leam from "./images/Leam";
 
 const Work = () => {
   return (
