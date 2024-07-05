@@ -1,9 +1,10 @@
-import React from "react";
-
 const Privacy = () => {
   return (
-    <div className="px-4 md:px-10 mt-64 min-h-screen text-white mb-10">
-      <h1 className="text-2xl md:text-4xl">
+    <div className="px-4 md:px-10 mt-20 min-h-screen mb-10">
+      <a href="/" className="text-xl border-black border-[1px] px-6 py-1">
+        back
+      </a>
+      <h1 className="text-2xl md:text-4xl mt-10">
         <strong>Datenschutzerkl&auml;rung</strong>
       </h1>
       <br />

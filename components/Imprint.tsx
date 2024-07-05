@@ -1,9 +1,10 @@
-import React from "react";
-
 const Imprint = () => {
   return (
-    <div className="px-10 mt-64 min-h-screen text-white">
-      <p className="text-4xl">
+    <div className="px-10 mt-20 min-h-screen text-white">
+      <a href="/" className="text-xl border-black border-[1px] px-6 py-1">
+        back
+      </a>
+      <p className="text-4xl mt-10">
         <strong>Impressum</strong>
         <br />
         <br />

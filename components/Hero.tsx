@@ -57,8 +57,12 @@ const Hero = () => {
           </a>
         </div>
         <div className="hidden lg:flex cursor-pointer text-base justify-between bottom-10 fixed space-x-6">
-          <p className="hover:text-[#F187FB] duration-300">Imprint</p>
-          <p className="hover:text-[#F187FB] duration-300">Privacy</p>
+          <a href="/imprint">
+            <p className="hover:text-[#F187FB] duration-300">Imprint</p>
+          </a>
+          <a href="/privacy">
+            <p className="hover:text-[#F187FB] duration-300">Privacy</p>
+          </a>
           <a
             href="https://www.linkedin.com/in/luis-maximilian-kameter-a44417254/"
             className="w-[25px] h-[25px]"
@@ -177,8 +181,12 @@ const Hero = () => {
         </a>
         <div className="lg:hidden flex font-black text-[#5AB7CA] cursor-pointer justify-center items-center">
           <div className="flex justify-between max-w-[200px] space-x-4">
-            <p>Imprint</p>
-            <p>Privacy</p>
+            <a href="/imprint">
+              <p>Imprint</p>
+            </a>
+            <a href="/privacy">
+              <p>Privacy</p>
+            </a>
             <a
               href="https://www.linkedin.com/in/luis-maximilian-kameter-a44417254/"
               className="block w-[25px] h-[25px]"

@@ -11,10 +11,7 @@ export default function Home() {
       </Head>
       <main className="w-full flex justify-center">
         <div className="w-full max-w-[1300px]">
-          <Navbar />
-          <NavbarMobile />
           <Imprint />
-          <Footer />
         </div>
       </main>
     </div>
