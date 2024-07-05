@@ -1,6 +1,6 @@
 const Imprint = () => {
   return (
-    <div className="px-10 mt-20 min-h-screen text-white">
+    <div className="px-10 mt-20 min-h-screen">
       <a href="/" className="text-xl border-black border-[1px] px-6 py-1">
         back
       </a>
