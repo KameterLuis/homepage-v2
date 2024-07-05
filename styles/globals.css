@@ -11,10 +11,21 @@ html,
 body {
   padding: 0;
   margin: 0;
-  background-color: #000;
+  background-color: #fff;
   scroll-behavior: smooth;
 }
 
-.menu-active {
-  height: 100vh;
+#overflow, div {
+  scroll-behavior: smooth;
+}
+
+.text-gradient {
+  background: -webkit-linear-gradient(300deg, #fc4778, #3952f5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: text-animation 300ms linear infinite;
+}
+
+.rotate-z {
+  transform: rotateY('360deg');
 }
