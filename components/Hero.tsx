@@ -14,7 +14,7 @@ const Hero = () => {
             </p>
           </a>
         </div>
-        <div className="cursor-default group relative inline-block left-[50%] top-[50%] -translate-x-[50%] -translate-y-[60%] lg:-translate-y-[50%]">
+        <div className="cursor-default group relative inline-block left-[50%] mt-[50%] -translate-x-[50%] -translate-y-[60%] lg:-translate-y-[35%]">
           <p className="text-7xl lg:text-9xl inline-block drop-shadow-[0_0px_10px_rgba(0,0,0,0.5)] lg:drop-shadow-none">
             More
             <br />
