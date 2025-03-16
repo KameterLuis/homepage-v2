@@ -4,6 +4,8 @@ import Link from "next/link";
 import Project from "./project";
 import Nav from "../nav";
 
+//comment
+
 const page = () => {
   return (
     <div className="min-w-screen min-h-screen bg-white">
