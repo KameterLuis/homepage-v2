@@ -32,7 +32,7 @@ const page = () => {
         <p
           className={
             specialElite.className +
-            " text-black text-center mt-10 md:mt-10 md:text-xl max-w-[500px] px-4"
+            " text-black text-center md:mt-10 md:text-xl max-w-[500px] px-4"
           }
         >
           <p className="text-4xl">

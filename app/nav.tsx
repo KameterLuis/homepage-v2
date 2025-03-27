@@ -41,7 +41,7 @@ const Nav = () => {
       </Link>
       <Link
         href="/work"
-        className="z-50 font-black block hover:text-[#ea1313] translate-x-[30px]"
+        className="z-50 font-black block hover:text-[#ea1313] sm:translate-x-[30px]"
       >
         <p>Work</p>
       </Link>

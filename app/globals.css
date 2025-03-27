@@ -39,7 +39,7 @@ body {
 }
 
 .imgAnim {
-  animation: image-animation 1s 1s ease forwards;
+  animation: image-animation 1s 2s ease forwards;
   opacity: 0;
 }
 

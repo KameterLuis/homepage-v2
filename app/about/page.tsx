@@ -31,7 +31,7 @@ const page = () => {
       <Nav />
       <div className="flex flex-col items-center mt-12 md:mt-20 pb-24">
         <div className="relative flex flex-col items-center">
-          <p className="text-6xl spreadAnim text-center absolute text-black w-[275px] md:w-[600px] h-[275px] md:h-[400px] translate-y-[30px]">
+          <p className="text-4xl md:text-6xl sm:spreadAnim text-center absolute text-black w-[300px] md:w-[600px] h-[275px] md:h-[400px] translate-y-[20px] md:translate-y-[30px]">
             "Design is not just what it looks and feels like. Design is how it
             works."
           </p>
@@ -77,7 +77,7 @@ const page = () => {
           identity.
         </p>
         <Link
-          className="text-white my-24 p-2 scale-200 bg-black hover:bg-[#ea1313] duration-300"
+          className="text-white my-12 md:my-24 p-2 scale-125 md:scale-200 bg-black hover:bg-[#ea1313] duration-300"
           href="/contact"
         >
           Shoot me a message

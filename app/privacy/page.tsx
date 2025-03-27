@@ -32,10 +32,10 @@ const page = () => {
         <p
           className={
             specialElite.className +
-            " text-black text-center mt-10 md:mt-10 md:text-xl max-w-[500px] px-4"
+            " text-black text-center md:mt-10 md:text-xl max-w-[500px] px-4"
           }
         >
-          <h1 className="text-4xl">
+          <h1 className="text-2xl sm:text-4xl">
             <strong>Datenschutzerkl&auml;rung</strong>
           </h1>
           <br />
