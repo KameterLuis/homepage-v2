@@ -12,8 +12,8 @@ class entity {
   time: number;
   constructor(shape: number, color: string, speed: number, size: number) {
     if (typeof window !== "undefined") {
-      this.blockX = Math.random() * (window.innerWidth - size - 5) + size + 5;
-      this.blockY = Math.random() * (window.innerHeight - size - 5) + size + 5;
+      this.blockX = Math.random() * (window.innerWidth - size * 4) + size * 2;
+      this.blockY = Math.random() * (window.innerHeight - size * 4) + size * 2;
     } else {
       this.blockX = 0;
       this.blockY = 0;
@@ -50,7 +50,7 @@ const Canvas = (props: any) => {
 
   const entities: entity[] = [];
   for (let i = 0; i < 1; i++) {
-    let e: entity = new entity(1, "#000", 10, 75);
+    let e: entity = new entity(1, "#000", 10, 60);
     /*Math.round(Math.random()),
       "#000000",
       Math.random() * 10 + 5,
@@ -138,7 +138,7 @@ const Canvas = (props: any) => {
     <canvas
       onPointerMove={updateMouse}
       ref={canvasRef}
-      className="fixed w-screen h-screen"
+      className="w-full h-full"
       {...props}
     />
   );

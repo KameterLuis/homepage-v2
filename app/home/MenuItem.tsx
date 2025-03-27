@@ -14,15 +14,15 @@ const MenuItem = (props: menuProps) => {
     if (!textRef.current) return;
     const text = textRef.current as HTMLElement;
     if (!text.textContent) return;
-    text.innerHTML = text.textContent.replace(/\S/g, "<span>$&</span>");
+    //text.innerHTML = text.textContent.replace(/\S/g, "<span>$&</span>");
   });
   return (
     <Link
+      className="text-black z-50 font-black text-4xl md:text-8xl hover:text-[#ea1313]"
       ref={textRef}
       href={props.href}
-      className="text-black z-50 font-black block text-4xl md:text-8xl hover:text-[#ea1313]"
     >
-      <p>{props.text}</p>
+      {props.text}
     </Link>
   );
 };

@@ -3,13 +3,19 @@ import Image from "next/image";
 import Link from "next/link";
 import Project from "./project";
 import Nav from "../nav";
-
-//comment
+import Foot from "../foot";
 
 const page = () => {
   return (
     <div className="min-w-screen min-h-screen bg-white">
-      <Video />
+      <div className="fixed w-screen h-screen left-0 top-0 opacity-5 pointer-events-none">
+        <Image
+          src="/background-2.jpg"
+          alt="background doodle"
+          fill
+          objectFit="cover"
+        />
+      </div>
       <div className="relative w-full h-[200px]">
         <Link href="/">
           <Image src="/home/header.png" alt="Header" fill />
@@ -54,6 +60,7 @@ const page = () => {
           />
         </div>
       </div>
+      <Foot />
     </div>
   );
 };

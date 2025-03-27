@@ -4,6 +4,8 @@ import Image from "next/image";
 import MenuItem from "../home/MenuItem";
 import Link from "next/link";
 import { Special_Elite } from "next/font/google";
+import Foot from "../foot";
+import Nav from "../nav";
 
 const specialElite = Special_Elite({
   weight: "400",
@@ -14,32 +16,20 @@ const specialElite = Special_Elite({
 const page = () => {
   return (
     <div className="min-w-screen min-h-screen bg-white">
-      <Video />
+      <div className="fixed w-screen h-screen left-0 top-0 opacity-5 pointer-events-none">
+        <Image
+          src="/background.jpg"
+          alt="background doodle"
+          fill
+          objectFit="cover"
+        />
+      </div>
       <div className="relative w-full h-[200px]">
         <Link href="/">
           <Image src="/home/header.png" alt="Header" fill />
         </Link>
       </div>
-      <div className="px-2 md:px-8 flex z-50 justify-between text-3xl md:text-6xl sticky top-4">
-        <Link
-          href="/about"
-          className="text-black z-50 font-black block hover:text-[#ea1313]"
-        >
-          <p>About</p>
-        </Link>
-        <Link
-          href="/work"
-          className="text-black z-50 font-black block hover:text-[#ea1313]"
-        >
-          <p>Work</p>
-        </Link>
-        <Link
-          href="/contact"
-          className="text-black z-50 font-black block hover:text-[#ea1313]"
-        >
-          <p>Contact</p>
-        </Link>
-      </div>
+      <Nav />
       <div
         className={
           specialElite.className +
@@ -47,7 +37,11 @@ const page = () => {
         }
       >
         <p className="text-black mb-4 text-2xl">Contact</p>
-        <form action="mailto:contact@luiskameter.com" method="GET">
+        <form
+          className="w-[280px]"
+          action="mailto:contact@luiskameter.com"
+          method="GET"
+        >
           <div>
             <input
               className="flex p-2 text-black w-full placeholder:text-black outline-none bg-transparent border border-black"
@@ -71,6 +65,15 @@ const page = () => {
             />
           </div>
         </form>
+        <Link
+          href="mailto:contact@luiskameter.com"
+          className="text-black mt-4 hover:underline"
+        >
+          E-Mail: contact@luiskameter.com
+        </Link>
+      </div>
+      <div className="fixed bottom-0">
+        <Foot />
       </div>
     </div>
   );
