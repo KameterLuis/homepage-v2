@@ -1,5 +1,5 @@
 import React from "react";
-import Video from "./Video";
+import Video from "@/app/hero/Video";
 import Image from "next/image";
 
 const Hero = () => {

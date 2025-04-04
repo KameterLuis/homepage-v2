@@ -1,13 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Special_Elite } from "next/font/google";
-
-const specialElite = Special_Elite({
-  weight: "400",
-  variable: "--font-special-elite",
-  subsets: ["latin"],
-});
 
 const About = () => {
   return (

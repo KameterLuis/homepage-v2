@@ -1,5 +1,5 @@
-import Project from "./project";
-import Banner from "./Banner";
+import Project from "@/app/work/project";
+import Banner from "@/app/work/Banner";
 
 const Work = () => {
   return (
