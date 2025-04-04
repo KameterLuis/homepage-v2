@@ -1,4 +1,4 @@
-import Project from "./Project";
+import Project from "./project";
 import Banner from "./Banner";
 
 const Work = () => {

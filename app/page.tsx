@@ -1,8 +1,8 @@
 import About from "./about/About";
-import Foot from "./Footer";
+import Foot from "./footer";
 import Hero from "./hero/Hero";
 import Contact from "./contact/Contact";
-import Nav from "./Nav";
+import Nav from "./nav";
 import Work from "./work/Work";
 
 export default function Home() {

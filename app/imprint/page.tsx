@@ -2,8 +2,8 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Special_Elite } from "next/font/google";
-import Nav from "../Nav";
-import Foot from "../Footer";
+import Nav from "../nav";
+import Foot from "../footer";
 
 const specialElite = Special_Elite({
   weight: "400",
