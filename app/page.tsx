@@ -1,5 +1,5 @@
 import About from "./about/About";
-import Foot from "./footer";
+import Foot from "./foot";
 import Hero from "./hero/Hero";
 import Contact from "./contact/Contact";
 import Nav from "./nav";
