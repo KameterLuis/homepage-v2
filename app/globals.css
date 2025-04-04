@@ -5,6 +5,10 @@
   --foreground: #171717;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -51,5 +55,18 @@ body {
   100% {
     transform: scale(1);
     opacity: 1;
+  }
+}
+
+.banner {
+  animation: banner-anim 30s 0s linear infinite;
+}
+
+@keyframes banner-anim {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
   }
 }

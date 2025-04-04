@@ -8,8 +8,10 @@ const Nav = () => {
 
   const updateHeader = (e: any) => {
     if (!headerRef.current) return;
+    if (!e) return;
     const header = headerRef.current as HTMLElement;
-    if (header.getBoundingClientRect().y <= 0) {
+    const y = e.target.documentElement.scrollTop;
+    if (y > 0) {
       header.style.backgroundColor = "rgba(0,0,0,1)";
       header.style.color = "rgba(255,255,255,1)";
     } else {
@@ -31,26 +33,28 @@ const Nav = () => {
   return (
     <div
       ref={headerRef}
-      className="px-2 text-black md:px-8 flex z-50 justify-between text-3xl md:text-6xl sticky top-0 py-4 duration-300"
+      className="xl:px-0 text-black h-[100px] items-center justify-center px-10 flex z-50 sticky top-0 duration-300"
     >
-      <Link
-        href="/about"
-        className="z-50 font-black block hover:text-[#ea1313]"
-      >
-        <p>About</p>
-      </Link>
-      <Link
-        href="/work"
-        className="z-50 font-black block hover:text-[#ea1313] sm:translate-x-[30px]"
-      >
-        <p>Work</p>
-      </Link>
-      <Link
-        href="/contact"
-        className="z-50 font-black block hover:text-[#ea1313]"
-      >
-        <p>Contact</p>
-      </Link>
+      <div className="max-w-[1000px] w-full flex justify-between text-3xl">
+        <Link
+          href="#about"
+          className="z-50 font-black block hover:text-[#ea1313]"
+        >
+          <p>About</p>
+        </Link>
+        <Link
+          href="#work"
+          className="z-50 font-black block hover:text-[#ea1313] sm:translate-x-[30px]"
+        >
+          <p>Work</p>
+        </Link>
+        <Link
+          href="#contact"
+          className="z-50 font-black block hover:text-[#ea1313]"
+        >
+          <p>Contact</p>
+        </Link>
+      </div>
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const Foot = () => {
+const Footer = () => {
   return (
     <div className="text-black p-4">
       <Link className="text-xl mr-4" href="/imprint">
@@ -13,4 +13,4 @@ const Foot = () => {
   );
 };
 
-export default Foot;
+export default Footer;
