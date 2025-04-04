@@ -37,19 +37,19 @@ const Nav = () => {
     >
       <div className="max-w-[1000px] w-full flex justify-between text-3xl">
         <Link
-          href="#about"
+          href="/#about"
           className="z-50 font-black block hover:text-[#ea1313]"
         >
           <p>About</p>
         </Link>
         <Link
-          href="#work"
+          href="/#work"
           className="z-50 font-black block hover:text-[#ea1313] sm:translate-x-[30px]"
         >
           <p>Work</p>
         </Link>
         <Link
-          href="#contact"
+          href="/#contact"
           className="z-50 font-black block hover:text-[#ea1313]"
         >
           <p>Contact</p>
