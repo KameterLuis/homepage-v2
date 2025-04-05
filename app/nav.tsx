@@ -35,7 +35,7 @@ const Nav = () => {
       ref={headerRef}
       className="xl:px-0 text-black h-[100px] items-center justify-center px-10 flex z-50 sticky top-0 duration-300"
     >
-      <div className="max-w-[1000px] w-full flex justify-between text-3xl">
+      <div className="max-w-[1000px] w-full flex justify-between text-2xl md:text-3xl">
         <Link
           href="/#about"
           className="z-50 font-black block hover:text-[#ea1313]"
