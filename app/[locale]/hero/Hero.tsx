@@ -1,8 +1,10 @@
 import React from "react";
-import Video from "@/app/hero/Video";
+import Video from "@/app/[locale]/hero/Video";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 const Hero = () => {
+  const t = useTranslations("Hero");
   return (
     <div>
       <div className="bg-white w-screen h-screen fixed top-0 -z-10 left-0">
@@ -14,9 +16,9 @@ const Hero = () => {
             <Image src="/hero/header.png" loading="eager" alt="Header" fill />
           </div>
           <p className="text-black px-2 sm:px-6 text-2xl font-bold">
-            Web Design and
+            Web Design {t("and")}
             <br />
-            Development
+            {t("dev")}
           </p>
         </div>
       </div>

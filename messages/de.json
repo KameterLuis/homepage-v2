@@ -1,0 +1,30 @@
+{
+  "Hero": {
+    "and": "und",
+    "dev": "Entwicklung"
+  },
+  "Nav": {
+    "about": "Über",
+    "work": "Projekte",
+    "contact": "Kontakt"
+  },
+  "About": {
+    "about": "ÜBER MICH",
+    "text": "Hallo, ich bin Luis und studiere an der Technischen Universität München. Seit über drei Jahren gestalte und entwickle ich Webseiten - mit Leidenschaft und dem Blick fürs Detail. Ich unterstütze Unternehmen, Marken oder auch Privatpersonen dabei, eine moderne und individuelle Online-Präsenz aufzubauen. Ob Suchmaschinenoptimierung, ansprechendes Design oder komplexe Full-Stack-Lösungen - ich bringe die nötige Erfahrung mit. Ganz egal, ob du gerade erst loslegen willst oder schon eine konkrete Idee hast: Ich helfe dir dabei, deine Vision in eine professionelle und authentische Website zu verwandeln.",
+    "cta": "Lass uns zusammen arbeiten →"
+  },
+  "Banner": {
+    "text": "PROJEKTE"
+  },
+  "Contact": {
+    "header-1": "Schreib mir eine",
+    "header-2": "Nachricht",
+    "subject": "Betreff",
+    "message": "Nachricht",
+    "send": "Senden"
+  },
+  "Foot": {
+    "imprint": "Impressum",
+    "privacy": "Datenschutzerklärung"
+  }
+}

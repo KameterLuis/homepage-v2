@@ -1,9 +1,12 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import Link from "next/link";
 import React, { useEffect, useRef } from "react";
 
 const Nav = () => {
+  const t = useTranslations("Nav");
+
   const headerRef = useRef(null);
 
   const updateHeader = (e: any) => {
@@ -33,26 +36,26 @@ const Nav = () => {
   return (
     <div
       ref={headerRef}
-      className="xl:px-0 text-black h-[100px] items-center justify-center px-10 flex z-50 sticky top-0 duration-300"
+      className="xl:px-0 text-black h-[100px] items-center justify-center px-8 flex z-50 sticky top-0 duration-300"
     >
       <div className="max-w-[1000px] w-full flex justify-between text-2xl md:text-3xl">
         <Link
           href="/#about"
           className="z-50 font-black block hover:text-[#ea1313]"
         >
-          <p>About</p>
+          <p>{t("about")}</p>
         </Link>
         <Link
           href="/#work"
           className="z-50 font-black block hover:text-[#ea1313] sm:translate-x-[30px]"
         >
-          <p>Work</p>
+          <p>{t("work")}</p>
         </Link>
         <Link
           href="/#contact"
           className="z-50 font-black block hover:text-[#ea1313]"
         >
-          <p>Contact</p>
+          <p>{t("contact")}</p>
         </Link>
       </div>
     </div>

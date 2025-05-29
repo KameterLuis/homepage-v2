@@ -1,0 +1,30 @@
+{
+  "Hero": {
+    "and": "and",
+    "dev": "Development"
+  },
+  "Nav": {
+    "about": "About",
+    "work": "Work",
+    "contact": "Contact"
+  },
+  "About": {
+    "about": "ABOUT ME",
+    "text": "My name is Luis and I am a student at the technical university of munich. I have been building and designing websites for over 3 years now. I specialize in web development for businesses, brands or personal homepages. My experience ranges from SEO improvement to full stack high end websites. If you are just getting started or already have a concrete plan in mind, I am there to help you. Together we will be transforming your vision into a stunning, functional website that reflects your identity.",
+    "cta": "Let's work together →"
+  },
+  "Banner": {
+    "text": "PROJECTS"
+  },
+  "Contact": {
+    "header-1": "Send me a",
+    "header-2": "message",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send"
+  },
+  "Foot": {
+    "imprint": "Imprint",
+    "privacy": "Privacy Policy"
+  }
+}

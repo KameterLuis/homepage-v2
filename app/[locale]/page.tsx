@@ -4,10 +4,12 @@ import Hero from "./hero/Hero";
 import Contact from "./contact/Contact";
 import Nav from "./nav";
 import Work from "./work/Work";
+import LanguageSwitch from "./LanguageSwitch";
 
 export default function Home() {
   return (
     <div className="w-full h-full">
+      <LanguageSwitch />
       <Nav />
       <div className="flex justify-center w-screen h-full">
         <div className="max-w-[1000px] w-full">

@@ -1,6 +1,6 @@
 import React from "react";
-import Nav from "@/app/nav";
-import Footer from "@/app/foot";
+import Nav from "@/app/[locale]/nav";
+import Footer from "@/app/[locale]/foot";
 
 const page = () => {
   return (

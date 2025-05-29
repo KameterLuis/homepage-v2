@@ -1,5 +1,5 @@
-import Project from "@/app/work/project";
-import Banner from "@/app/work/Banner";
+import Project from "@/app/[locale]/work/project";
+import Banner from "@/app/[locale]/work/Banner";
 
 const Work = () => {
   return (
@@ -15,7 +15,7 @@ const Work = () => {
           <Project
             title="Kanzlei Geisler"
             imgSrc="/work/geisler.png"
-            url="https://kanzlei-geisler.vercel.app/"
+            url="https://rechtsanwalt-geisler.com"
           />
           <Project
             title="Eduquality"
