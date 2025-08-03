@@ -1,5 +1,5 @@
-import Project from "@/app/[locale]/work/project";
 import Banner from "@/app/[locale]/work/Banner";
+import Project from "@/app/[locale]/work/project";
 
 const Work = () => {
   return (
@@ -30,9 +30,9 @@ const Work = () => {
             url="https://conference.tum-blockchain.com/"
           />
           <Project
-            title="LEAM"
-            imgSrc="/work/leam.jpg"
-            url="https://leam.tech/"
+            title="Kameter und Späthe"
+            imgSrc="/work/k-und-s.jpg"
+            url="https://kameter-und-spaethe.vercel.app/"
           />
         </div>
         <div className="sm:flex sm:gap-x-4 xl:justify-between w-full justify-center">
