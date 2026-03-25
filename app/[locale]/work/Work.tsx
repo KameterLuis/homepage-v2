@@ -25,21 +25,9 @@ const Work = () => {
         </div>
         <div className="sm:flex sm:gap-x-4 xl:justify-between w-full justify-center">
           <Project
-            title="TUM Blockchain Conference"
-            imgSrc="/work/conference.jpg"
-            url="https://conference.tum-blockchain.com/"
-          />
-          <Project
-            title="Kameter und Späthe"
-            imgSrc="/work/k-und-s.jpg"
-            url="https://kameter-und-spaethe.vercel.app/"
-          />
-        </div>
-        <div className="sm:flex sm:gap-x-4 xl:justify-between w-full justify-center">
-          <Project
-            title="Wlokno"
-            imgSrc="/work/wlokno.png"
-            url="https://wlokno.com/"
+            title="FreeDesk4U"
+            imgSrc="/work/freedesk.jpg"
+            url="https://freedesk4u.de/"
           />
           <Project
             title="Eva Kameter"
